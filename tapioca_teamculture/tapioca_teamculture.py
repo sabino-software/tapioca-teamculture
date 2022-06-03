@@ -10,7 +10,6 @@ from .resource_mapping import RESOURCE_MAPPING
 
 
 class TeamCultureClientAdapter(JSONAdapterMixin, TapiocaAdapter):
-    api_root = 'https://stage-data.teamculture.com.br/'
     resource_mapping = RESOURCE_MAPPING
 
     def get_api_root(self, api_params, **kwargs):

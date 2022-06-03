@@ -1,11 +1,11 @@
 [tool.poetry]
 name = "tapioca_teamculture"
-version = "0.1.0"
-description = ""
+version = "0.1.6"
+description = "TeamCulture API wrapper using tapioca"
 authors = ["Felipe Guilherme Sabino <felipe@sabino.pro>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.7"
 tapioca-wrapper = "^2.1.0"
 
 [tool.poetry.dev-dependencies]
