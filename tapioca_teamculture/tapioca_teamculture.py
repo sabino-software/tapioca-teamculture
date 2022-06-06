@@ -13,9 +13,15 @@ class TeamCultureClientAdapter(JSONAdapterMixin, TapiocaAdapter):
     resource_mapping = RESOURCE_MAPPING
 
     def get_api_root(self, api_params, **kwargs):
+        
+        if kwargs.get('resource_name') in ['user_create', 'group_create']:
+            data_url = 'data-import'
+        else:
+            data_url = 'data'
+        
         if api_params.get('dev'):
-            return 'https://stage-data.teamculture.com.br/'
-        return 'https://data.teamculture.com.br/'
+            return f'https://stage-{data_url}.teamculture.com.br/'
+        return f'https://{data_url}.teamculture.com.br/'
 
     def format_data_to_request(self, data):
         if data:
