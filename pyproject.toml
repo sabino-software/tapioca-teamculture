@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "tapioca_teamculture"
-version = "0.1.6"
+version = "0.1.7"
 description = "TeamCulture API wrapper using tapioca"
 authors = ["Felipe Guilherme Sabino <felipe@sabino.pro>"]
 
