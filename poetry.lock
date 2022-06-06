@@ -138,8 +138,8 @@ python-versions = ">=3.4"
 
 [metadata]
 lock-version = "1.1"
-python-versions = "^3.8"
-content-hash = "260e3a1b6db776ed24ae3fec208cb1cfd7a524f531c5f13b2676fbcafc8fe37e"
+python-versions = "^3.7"
+content-hash = "4e5dd11e33a9c57c27cf66b972a435ec6c16f5b3557eec1b3a4340adf2fe67f3"
 
 [metadata.files]
 arrow = [
